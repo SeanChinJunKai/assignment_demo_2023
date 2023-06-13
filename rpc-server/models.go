@@ -1,6 +1,8 @@
 package main
 
 type Message struct {
-	chatId  string
-	content string
+	ChatId   string
+	Content  string
+	Sender   string
+	SendTime int64
 }

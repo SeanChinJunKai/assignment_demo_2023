@@ -9,6 +9,7 @@ services:
       - SERVICE_TAGS=rpc
     depends_on:
       - etcd
+      - mysql_db
   http-server:
     build: http-server
     ports:
